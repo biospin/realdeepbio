@@ -63,7 +63,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 |  	 |          |            https://mimic.physionet.org/mimicdata/schema/
 |2	 |2019.6.21	|(텐서플로우) deeplearning.ai 강의 : Course 1 - Introduction to Computer Vision
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 1장 ~ 2장. 코퍼스와 데이터세트의 실제 이해
-|  	 |          |(실무)  의료 데이터 분석 :  튜토리얼
+|  	 |          |(실무)  [의료 데이터 분석 :  튜토리얼](https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/%EB%AF%B8%EA%B5%AD%EC%A4%91%ED%99%98%EC%9E%90%EC%8B%A4%EC%98%A4%ED%94%88%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%83%9D%EC%84%B1%EB%B0%8F%EC%A1%B0%ED%9A%8C.pdf)
 |  	 |          |           https://mimic.physionet.org/tutorials/install-mimic-locally-windows/
 |  	 |          |           https://mimic.physionet.org/tutorials/intro-to-mimic-iii/
 |3	 |2019. 6.28|(텐서플로우) deeplearning.ai 강의 : Course 1 - Enhancing Vision with Convolutional Neural Networks
