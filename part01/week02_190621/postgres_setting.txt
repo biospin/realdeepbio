@@ -26,11 +26,15 @@ exit
 exit
 
 # postgres 접속 허용
-sudo cp /var/lib/pgsql/11/data/pg_hba.conf   /var/lib/pgsql/11/data/pg_hba.conf.bak
+sudo cp /var/lib/pgsql/11/data/pg_hba.conf        /var/lib/pgsql/11/data/pg_hba.conf.bak
+sudo cp /var/lib/pgsql/11/data/postgresql.conf   /var/lib/pgsql/11/data/postgresql.conf.bak
+
 sudo sed -i 's/peer/md5/g' /var/lib/pgsql/11/data/pg_hba.conf
 
 # 외부에서 접속 허용
 sudo sed -i 's/127.0.0.1\/32            ident/0.0.0.0\/0            trust/g' /var/lib/pgsql/11/data/pg_hba.conf
+
+sudo sed -i "s/\#listen_addresses = 'localhost'/listen_addresses = '*'/g" /var/lib/pgsql/11/data/postgresql.conf
 
 sudo systemctl restart postgresql-11
 
