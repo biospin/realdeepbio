@@ -1,0 +1,64 @@
+##################################################################################
+## 
+##  MIMIC III용 Postgres 설치와 데이터 업로드
+##  CentOS 기준
+##################################################################################
+
+##################################################################################
+## Postgres 설치
+##################################################################################
+
+sudo yum -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm 
+
+sudo yum -y install postgresql11 postgresql11-server
+
+sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
+sudo systemctl enable postgresql-11
+sudo systemctl start postgresql-11
+
+# 비번 변경 - Biospin1!
+sudo su - postgres
+psql
+
+postgres=# alter user postgres with password 'Biospin1!';
+
+exit
+exit
+
+# postgres 접속 허용
+sudo cp /var/lib/pgsql/11/data/pg_hba.conf   /var/lib/pgsql/11/data/pg_hba.conf.bak
+sudo sed -i 's/peer/md5/g' /var/lib/pgsql/11/data/pg_hba.conf
+
+# 외부에서 접속 허용
+sudo sed -i 's/127.0.0.1\/32            ident/0.0.0.0\/0            trust/g' /var/lib/pgsql/11/data/pg_hba.conf
+
+sudo systemctl restart postgresql-11
+
+##################################################################################
+## MIMIC 데이터 다운로드 및 업로드
+##################################################################################
+export MIMIC_DATA_PATH=$HOME/mimic-data
+export PHYSIONE_USER=ygji49@gmail.com
+mkdir MIMIC_DATA_PATH
+
+sudo yum -y git wget 
+
+cd ~/
+git clone https://github.com/MIT-LCP/mimic-code.git
+
+chmod 755 $HOME
+
+cd ~/mimic-code/buildmimic/postgres/
+
+# 데이터 다운로드 
+make mimic-download physionetuser=$PHYSIONE_USER datadir="$MIMIC_DATA_PATH"
+# physionet 비번입력 필요
+
+gzip   -d   $MIMIC_DATA_PATH/*.gz
+
+# 비번 변경 - Biospin1!
+sed -i 's/DBPASS := postgres/DBPASS := Biospin1!/g' Makefile
+
+# DB에 데이터 업로드 , 6시간 소요
+make create-user mimic datadir="$MIMIC_DATA_PATH/"
+
