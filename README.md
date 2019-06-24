@@ -30,8 +30,15 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
       - https://github.com/minjechoi/RetainVis
   - Forecasting Principles and Practice : https://otexts.com/fppkr/
 
-## 차후 스터디 
-  - 스터디 하면서 의견 수렴~~
+## 차후 스터디
+  - 강화학습  
+      - https://github.com/jxx123/simglucose
+      
+  - 데이터과학 기초
+      - [Foundations of Data Science](https://www.microsoft.com/en-us/research/publication/foundations-of-data-science-2/)
+      - [Statistical-Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
+      - [다양한 그래프, 간단한 수학, R로 배우는 머신러닝](http://bit.ly/2WLuuHq )
+  
 
 ## 장소
 1. 장소
