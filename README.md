@@ -65,7 +65,7 @@ https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeep
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
 | 1	 |2019. 6.14|(텐서플로우)   deeplearning.ai 강의 : Course 1 - A New Programming Paradigm
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 1장 ~ 2장. Introduction to Deep Learning
+|  	 |          |(신약탐색) [Deep Learning for the Life Sciences : 1장 ~ 2장. Introduction to Deep Learning](https://github.com/biospin/realdeepbio/blob/master/part01/week01_190614/DeepLearningLifeSciences_ch1.ipynb)
 |  	 |          |(실무)  [의료 데이터 분석 :  소개와 데이터 상세](https://github.com/biospin/realdeepbio/blob/master/part01/week01_190614/%EB%AF%B8%EA%B5%AD%EC%A4%91%ED%99%98%EC%9E%90%EC%8B%A4%EC%98%A4%ED%94%88%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_MIMIC-III.pdf)
 |  	 |          |            https://mimic.physionet.org/gettingstarted/overview/ 
 |  	 |          |            https://mimic.physionet.org/mimicdata/schema/
