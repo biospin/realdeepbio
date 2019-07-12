@@ -82,7 +82,7 @@ https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeep
 |  	 |          |           https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic
 |4	 |2019.7. 5	|(텐서플로우) deeplearning.ai 강의 : Course 1 - Using Real-World Images
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 3장. 문장 구조의 이해
-|  	 |          |(실무) 의료 데이터 분석 : Useful views/summaries of the data in MIMIC-III
+|  	 |          |(실무) 의료 데이터 분석 : [Useful views/summaries of the data in MIMIC-III](https://github.com/biospin/realdeepbio/blob/master/part01/week04_190712/mimiciii.pdf)
 |  	 |          |          https://github.com/MIT-LCP/mimic-code/tree/master/concepts
 
 ### Part 2.
