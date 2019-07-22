@@ -33,6 +33,10 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 ## 차후 스터디
   - 강화학습  
       - https://github.com/jxx123/simglucose
+      - https://www.youtube.com/channel/UCwkGvF7xKz2E0Lv-fZ9wv2g (한국인 강좌)
+      
+  - SQL 
+      - https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=155
       
   - 데이터과학 기초
       - [Foundations of Data Science](https://www.microsoft.com/en-us/research/publication/foundations-of-data-science-2/)
