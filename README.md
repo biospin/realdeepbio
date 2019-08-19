@@ -73,18 +73,18 @@ https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeep
 |  	 |          |(실무)  [의료 데이터 분석 :  소개와 데이터 상세](https://github.com/biospin/realdeepbio/blob/master/part01/week01_190614/%EB%AF%B8%EA%B5%AD%EC%A4%91%ED%99%98%EC%9E%90%EC%8B%A4%EC%98%A4%ED%94%88%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_MIMIC-III.pdf)
 |  	 |          |            https://mimic.physionet.org/gettingstarted/overview/ 
 |  	 |          |            https://mimic.physionet.org/mimicdata/schema/
-|2	 |2019.6.21	|(텐서플로우) deeplearning.ai 강의 : Course 1 - Introduction to Computer Vision
+|2	 |2019.6.21	|(텐서플로우) [deeplearning.ai 강의 : Course 1 - Introduction to Computer Vision](https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/Week1_2.pdf)
 |  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 3. Machine Learning with DeepChem](https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeepbio_Part_2-1_20190621_Junsu_Chapter3_v2.pdf)
 |  	 |          |         [인공지능과 신약 개발 특강](https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeepbio_Part_2-1_20190621_Junsu_DrugDiscovery_v1.pdf)
 |  	 |          |(실무)  [의료 데이터 분석 :  튜토리얼](https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/%EB%AF%B8%EA%B5%AD%EC%A4%91%ED%99%98%EC%9E%90%EC%8B%A4%EC%98%A4%ED%94%88%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%83%9D%EC%84%B1%EB%B0%8F%EC%A1%B0%ED%9A%8C.pdf)
 |  	 |          |           https://mimic.physionet.org/tutorials/install-mimic-locally-windows/
 |  	 |          |           https://mimic.physionet.org/tutorials/intro-to-mimic-iii/
-|3	 |2019. 6.28|(텐서플로우) deeplearning.ai 강의 : Course 1 - Enhancing Vision with Convolutional Neural Networks
+|3	 |2019. 6.28|(텐서플로우) [deeplearning.ai 강의 : Course 1 - Enhancing Vision with Convolutional Neural Networks](https://github.com/biospin/realdeepbio/blob/master/part01/week03_190628/Week3.pdf)
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 1장 ~ 2장. 코퍼스와 데이터세트의 실제 이해
-|  	 |          |(실무) 의료 데이터 분석 :  MIMIC 데이터 소개와  데이터베이스 구축
+|  	 |          |(실무) [의료 데이터 분석 :  MIMIC 데이터 소개와  데이터베이스 구축](https://github.com/biospin/realdeepbio/blob/master/part01/week03_190628/The%20MIMIC%20Code%20Repository_%20enabling%20reproducibility%20in%20critical%20care%20research.pdf)
 |  	 |          |           https://academic.oup.com/jamia/article/25/1/32/4259424
 |  	 |          |           https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic
-|4	 |2019.7. 5	|(텐서플로우) deeplearning.ai 강의 : Course 1 - Using Real-World Images
+|4	 |2019.7. 5	|(텐서플로우) [deeplearning.ai 강의 : Course 1 - Using Real-World Images](https://github.com/biospin/realdeepbio/blob/master/part01/week04_190712/Using%20Real-world%20Images.pdf)
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 3장. 문장 구조의 이해
 |  	 |          |(실무) 의료 데이터 분석 : [Useful views/summaries of the data in MIMIC-III](https://github.com/biospin/realdeepbio/blob/master/part01/week04_190712/mimiciii.pdf)
 |  	 |          |          https://github.com/MIT-LCP/mimic-code/tree/master/concepts
@@ -93,32 +93,31 @@ https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeep
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
 |1	 |2019. 7.12|(텐서플로우)   deeplearning.ai 강의 : Course 2 - Exploring a Larger Dataset
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 4. Machine Learning for Molecules
-|  	 |          |(실무)  의료 데이터 분석 :  notebooks
+|  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 4. Machine Learning for Molecules](https://github.com/biospin/realdeepbio/blob/master/part02/week01_190712/deep%20learning%20for%20life%20science_4.pdf)
+|  	 |          |(실무)  [의료 데이터 분석 :  notebooks](https://github.com/biospin/realdeepbio/blob/master/part02/week01_190712/%5BPart2Week1%5DMIT-LCP_mimic-code_notebooks.pdf)
 |  	 |          |           https://github.com/MIT-LCP/mimic-code/tree/master/notebooks
 |2	 |2019. 7.19|(텐서플로우) deeplearning.ai 강의 : Course 2 - Augmentation, a Technique to Avoid Overfitting
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 4장. 전처리
-|  	 |          |(실무)  의료 데이터 분석 : notebooks/aline
+|  	 |          |(실무)  [의료 데이터 분석 : notebooks/aline](https://github.com/biospin/realdeepbio/blob/master/part02/week02_190719/1-crrt.pdf)
 |  	 |          |             https://github.com/MIT-LCP/mimic-code/tree/master/notebooks/aline
-|3	 |2019. 7.26|(텐서플로우) deeplearning.ai 강의 : Course 2 - Transfer Learning
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 5. Biophysical Machine Learning
-|  	 |          |(실무)  의료 데이터 분석 : tutorials
+|3	 |2019. 7.26|(텐서플로우) [deeplearning.ai 강의 : Course 2 - Transfer Learning](https://github.com/biospin/realdeepbio/blob/master/part02/week03_190726/Data%20Augmentation.pdf)
+|  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 5. Biophysical Machine Learning](https://github.com/biospin/realdeepbio/blob/master/part02/week03_190726/RealDeepbio_Part_2-3_190802_JKo_Ch5_Biophysical_Machine_Learning_v2.pdf)
+
+|4	 |2019. 8. 2|(텐서플로우) [deeplearning.ai 강의 : Course 2 - Multi-class Classifications](https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/Mutliclass_classification.pdf)
+|  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 6. Deep Learning for Genomics](https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/RealDeepbio_Part_2-3_190802_JKo_Ch6_Deep_Learning_for_Genomics.pdf)
+|  	 |          |(실무)  [의료 데이터 분석 : tutorials](https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/MIMIC-III_SQL_Tutorials.pdf)
 |  	 |          |            https://github.com/MIT-LCP/mimic-code/tree/master/tutorials
-|4	 |2019. 8. 2|(텐서플로우) deeplearning.ai 강의 : Course 2 - Multi-class Classifications
-|  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 5장. 피처 엔지니어링과 NLP 알고리즘
-|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 리뷰
-|  	 |          |            https://github.com/minjechoi/RetainVis
 
 ### Part 3.
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
 |1	 |2019. 8.16|(텐서플로우) Hands-on Machine Learning : 10. Introduction to Artificial Neural Networks with Keras
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 6. Deep Learning for Genomics
-|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 #1
+|  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 5장. 피처 엔지니어링과 NLP 알고리즘
+|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 리뷰
 |  	 |          |            https://github.com/minjechoi/RetainVis
 | 2  |2019. 8.23|(텐서플로우) Hands-on Machine Learning : 11. Training Deep Neural Networks
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  6장. 고급 피처 엔지니어링과 NLP 알고리즘
-|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 #2
+|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 
 |  	 |          |            https://github.com/minjechoi/RetainVis
 | 3	 |2019. 8.30|(텐서플로우) Hands-on Machine Learning : 12. Custom Models and Training with TensorFlow
 |  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 7. Machine Learning for Microscopy
