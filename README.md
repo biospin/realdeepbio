@@ -63,7 +63,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 - 빅바이오 : https://github.com/biospin/BigBio 
 - 딥바이오  : https://github.com/biospin/DeepBio
 
-https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeepbio_Part_2-1_20190621_Junsu_Chapter3_v2.pdf
+
 
 ### Part 1.
 |seq.|    날짜        |     내용                                                                                      
