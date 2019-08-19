@@ -102,7 +102,6 @@ https://github.com/biospin/realdeepbio/blob/master/part01/week02_190621/RealDeep
 |  	 |          |             https://github.com/MIT-LCP/mimic-code/tree/master/notebooks/aline
 |3	 |2019. 7.26|(텐서플로우) [deeplearning.ai 강의 : Course 2 - Transfer Learning](https://github.com/biospin/realdeepbio/blob/master/part02/week03_190726/Data%20Augmentation.pdf)
 |  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 5. Biophysical Machine Learning](https://github.com/biospin/realdeepbio/blob/master/part02/week03_190726/RealDeepbio_Part_2-3_190802_JKo_Ch5_Biophysical_Machine_Learning_v2.pdf)
-
 |4	 |2019. 8. 2|(텐서플로우) [deeplearning.ai 강의 : Course 2 - Multi-class Classifications](https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/Mutliclass_classification.pdf)
 |  	 |          |(신약탐색)  [Deep Learning for the Life Sciences : 6. Deep Learning for Genomics(https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/RealDeepbio_Part_2-3_190802_JKo_Ch6_Deep_Learning_for_Genomics.pdf)
 |  	 |          |(실무)  [의료 데이터 분석 : tutorials](https://github.com/biospin/realdeepbio/blob/master/part02/week04_190809/MIMIC-III_SQL_Tutorials.pdf)
