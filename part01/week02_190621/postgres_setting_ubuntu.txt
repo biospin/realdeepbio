@@ -1,0 +1,68 @@
+##################################################################################
+## 
+##  MIMIC III용 Postgres 설치와 데이터 업로드
+##  CentOS 기준
+##################################################################################
+
+##################################################################################
+## Postgres 설치
+##################################################################################
+
+sudo apt-get install postgresql 
+
+# 설치확인
+cat /etc/passwd | grep postgres
+/etc/init.d/postgresql status
+netstat -tnlp | grep postgres
+
+# postgres 계정의 패스워드 변경
+sudo -u postgres psql template1
+
+ALTER USER postgres with encrypted password 'Biospin1!';
+\q
+
+
+# postgres 접속 허용
+ps -ef | grep postgresql.conf | grep -v grep # 설정파일 위치 확인
+
+sudo cp /etc/postgresql/9.5/main/postgresql.conf  /etc/postgresql/9.5/main/postgresql.conf.bak 
+sudo cp /etc/postgresql/9.5/main/pg_hba.conf      /etc/postgresql/9.5/main/pg_hba.conf.bak
+
+sudo echo "listen_addresses = '*' " >> /etc/postgresql/9.5/main/postgresql.conf
+sudo echo "host    all             all             0.0.0.0/0               md5" >>  /etc/postgresql/9.5/main/pg_hba.conf
+
+sudo /etc/init.d/postgresql restart
+
+netstat -tnlp | grep postgres
+
+# 원격지에서 접속 테스트
+psql -h 10.19.11.137 -U postgres template1
+
+##################################################################################
+## MIMIC 데이터 다운로드 및 업로드
+##################################################################################
+export MIMIC_DATA_PATH=/data/reference/mimic
+export PHYSIONE_USER=ygji49@gmail.com
+mkdir -p $MIMIC_DATA_PATH
+
+sudo apt install git wget 
+
+cd $MIMIC_DATA_PATH
+git clone -c http.sslverify=false https://github.com/MIT-LCP/mimic-code.git
+
+
+
+cd $MIMIC_DATA_PATH/mimic-code/buildmimic/postgres/
+
+# 데이터 다운로드 
+make mimic-download physionetuser=$PHYSIONE_USER datadir="$MIMIC_DATA_PATH"
+# physionet 비번입력 필요  : 비번 까먹음. ㅜㅜ
+
+gzip   -d   $MIMIC_DATA_PATH/*.gz
+
+# 비번 변경 - Biospin1!
+sed -i 's/DBPASS := postgres/DBPASS := Biospin1!/g' Makefile
+
+# DB에 데이터 업로드 , 6시간 소요
+make create-user mimic datadir="$MIMIC_DATA_PATH/"
+
