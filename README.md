@@ -112,8 +112,8 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
 |1	 |2019. 8.16|(텐서플로우) Hands-on Machine Learning : 10. Introduction to Artificial Neural Networks with Keras
-|  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 : 5장. 피처 엔지니어링과 NLP 알고리즘
-|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 리뷰
+|  	 |          |(신약탐색)  [파이썬 자연어 처리의 이론과 실제 : 5장. 피처 엔지니어링과 NLP 알고리즘](https://github.com/biospin/realdeepbio/blob/master/part03/week01_190823/PythonNaturalLanguageProcessing_chapter05.pdf)
+|  	 |          |(실무)  [의료 데이터 분석 : RetainVis 논문 리뷰](https://github.com/biospin/realdeepbio/blob/master/part03/week01_190823/RetainVis.pdf)
 |  	 |          |            https://github.com/minjechoi/RetainVis
 | 2  |2019. 8.23|(텐서플로우) Hands-on Machine Learning : 11. Training Deep Neural Networks
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  6장. 고급 피처 엔지니어링과 NLP 알고리즘
