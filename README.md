@@ -66,7 +66,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 
 
 ### Part 1.
-|seq.|    날짜        |     내용                                                                                      
+|seq.|    날짜    |     내용                                                                                      
 |----| ---------|----------------------------------------------
 | 1	 |2019. 6.14|(텐서플로우)   deeplearning.ai 강의 : Course 1 - A New Programming Paradigm
 |  	 |          |(신약탐색) [Deep Learning for the Life Sciences : 1장 ~ 2장. Introduction to Deep Learning](https://github.com/biospin/realdeepbio/blob/master/part01/week01_190614/DeepLearningLifeSciences_ch1.ipynb)
@@ -115,44 +115,36 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 |  	 |          |(신약탐색)  [파이썬 자연어 처리의 이론과 실제 : 5장. 피처 엔지니어링과 NLP 알고리즘](https://github.com/biospin/realdeepbio/blob/master/part03/week01_190823/PythonNaturalLanguageProcessing_chapter05.pdf)
 |  	 |          |(실무)  [의료 데이터 분석 : RetainVis 논문 리뷰](https://github.com/biospin/realdeepbio/blob/master/part03/week01_190823/RetainVis.pdf)
 |  	 |          |            https://github.com/minjechoi/RetainVis
-| 2  |2019. 8.23|(텐서플로우) Hands-on Machine Learning : 11. Training Deep Neural Networks
+| 2  |2019. 9.06|(신약개발)  Deep Learning for the Life Sciences : 7. Machine Learning for Microscopy
 |  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  6장. 고급 피처 엔지니어링과 NLP 알고리즘
-|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 
+|  	 |          |(실무)  [시계열분석 : 1장. 시작하기 ~ 2장. 시계열 시각화](https://github.com/biospin/realdeepbio/blob/master/part03/week02_190906/Forecasting_chapter2.ipynb)
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 10. Introduction to Artificial Neural Networks with Keras
+| 3	 |2019. 9.20|(신약개발)  Deep Learning for the Life Sciences : 8. Deep Learning for Medicine
+|  	 |          |(신약개발)  파이썬 자연어 처리의 이론과 실제 :  7장. NLP를 위한 규칙 기반 시스템
+|  	 |          |(실무) 시계열분석 : Chapter 3 예측가의 도구 상자 ~ Chapter 4 판단 예측
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 11. Training Deep Neural Networks
+| 4	 |2019. 9.27|(신약개발) Deep Learning for the Life Sciences : 9. Generative Models
+|  	 |          |(신약개발)  파이썬 자연어 처리의 이론과 실제 :  8장. NLP 문제에 대한 머신 러닝
+|  	 |          |(실무) 시계열분석 : Chapter 5 시계열 회귀 모델 ~ Chapter 6 시계열 분해
+|  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 #1,2
 |  	 |          |            https://github.com/minjechoi/RetainVis
-| 3	 |2019. 8.30|(텐서플로우) Hands-on Machine Learning : 12. Custom Models and Training with TensorFlow
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 7. Machine Learning for Microscopy
-|  	 |          |(실무)  시계열분석 : 1장 ~ 2장. 시계열 시각화
-| 4	 |2019. 9. 6|(텐서플로우) Hands-on Machine Learning : 13. Loading and Preprocessing Data with TensorFlow
-|  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  7장. NLP를 위한 규칙 기반 시스템
-|  	 |          |(실무) 시계열분석 : 
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 12. Custom Models and Training with TensorFlow
 
 ### Part 4.
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
-| 1	 |2019. 9.13|(텐서플로우) Hands-on Machine Learning : 14. Deep Computer Vision Using Convolutional Neural Networks
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 8. Deep Learning for Medicine
-|  	 |          |(실무) 시계열분석 : Chapter 3 예측가의 도구 상자
-| 2	 |2019. 9.20|(텐서플로우) Hands-on Machine Learning : 15장. 오토인코더
-|  	 |          |(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  8장. NLP 문제에 대한 머신 러닝
-|  	 |          |(실무) 시계열분석 : Chapter 4 판단 예측
-| 3	 |2019. 9.27|(텐서플로우) Hands-on Machine Learning : 16장. 강화 학습
-|  	 |          |(신약탐색)  Deep Learning for the Life Sciences : 9. Generative Models
-|  	 |          |(실무) 시계열분석 : Chapter 5 시계열 회귀 모델
-| 4	 |2019.10. 4|(신약탐색)  파이썬 자연어 처리의 이론과 실제 :  9장. NLU과 NLG 문제에 대한 딥러닝
-|  	 |          |(실무) 시계열분석 : Chapter 6 시계열 분해
-|  	 |          |(실무) 시계열분석 : Chapter 7 지수평활
+| 1	 |2019.10.11|(신약개발)   Deep Learning for the Life Sciences: 10. Interpretation of Deep Models
+|  	 |          |(신약개발)  파이썬 자연어 처리의 이론과 실제 :  9장. NLU과 NLG 문제에 대한 딥러닝
+|  	 |          |(실무) 시계열분석 : Chapter 7 지수평활 ~ Chapter 8 ARIMA 모델
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 13. Loading and Preprocessing Data with TensorFlow
+| 2	 |2019.10.18|((신약개발)   Deep Learning for the Life Sciences: 11. A Virtual Screening Workflow Example
+|  	 |          |(실무) 시계열분석 : Chapter 9 동적 회귀 모델 ~ Chapter 10 계층적 시계열 또는 그룹화된 시계열
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 14. Deep Computer Vision Using Convolutional Neural Networks
+| 3	 |2019.10.25|(신약개발)   Deep Learning for the Life Sciences: 12. Prospects and Perspectives
+|  	 |          |(실무) 시계열분석 :Chapter 11 고급 예측 기법 ~ Chapter 12 몇 가지 실제 예측 문제
+|  	 |          |(텐서플로우) Hands-on Machine Learning : 15장. 오토인코더
+| 4	 |2019.11. 1|(텐서플로우) Hands-on Machine Learning : 16장. 강화 학습
 
-### Part 5.
-|seq.|    날짜        |     내용                                                                                      
-|----| ---------|----------------------------------------------
-| 1	 |2019.10.11|(신약탐색)   Deep Learning for the Life Sciences: 10. Interpretation of Deep Models
-|  	 |          |(실무) 시계열분석 : Chapter 8 ARIMA 모델
-|  	 |          |(실무) 시계열분석 :Chapter 9 동적 회귀 모델 
-| 2  |2019.10.18|(신약탐색)   Deep Learning for the Life Sciences: 11. A Virtual Screening Workflow Example
-|  	 |          |(실무) 시계열분석 :Chapter 10 계층적 시계열 또는 그룹화된 시계열
-|  	 |          |(실무) 시계열분석 :Chapter 11 고급 예측 기법
-| 3	 |2019.10.25|(신약탐색)   Deep Learning for the Life Sciences: 12. Prospects and Perspectives
-|  	 |          |(실무) 시계열분석 :Chapter 12 몇 가지 실제 예측 문제
 
 
 
