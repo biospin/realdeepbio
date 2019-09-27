@@ -125,7 +125,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 |  	 |          |(텐서플로우) Hands-on Machine Learning : 11. Training Deep Neural Networks
 | 4	 |2019. 9.27|(신약개발) Deep Learning for the Life Sciences : 9. Generative Models
 |  	 |          |(신약개발)  파이썬 자연어 처리의 이론과 실제 :  8장. NLP 문제에 대한 머신 러닝
-|  	 |          |(실무) 시계열분석 : Chapter 5 시계열 회귀 모델 ~ Chapter 6 시계열 분해
+|  	 |          |(실무) 시계열분석 : [Chapter 4 판단 예측](https://github.com/biospin/realdeepbio/blob/master/part03/week04_190927/%EC%98%88%EC%B8%A1%EA%B8%B0%EB%B2%95%EC%9D%98%EC%9B%90%EB%A6%AC%EC%99%80%EC%8B%A4%EC%8A%B5_4%EC%9E%A5%ED%8C%90%EB%8B%A8%EC%98%88%EC%B8%A1.pdf)
 |  	 |          |(실무)  의료 데이터 분석 : RetainVis 논문 내용 구현 #1,2
 |  	 |          |            https://github.com/minjechoi/RetainVis
 |  	 |          |(텐서플로우) Hands-on Machine Learning : 12. Custom Models and Training with TensorFlow
