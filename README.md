@@ -133,8 +133,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 ### Part 4.
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
-| 1	 |2019.10.11|(신약개발)   Deep Learning for the Life Sciences: 10. Interpretation of Deep Models
-|  	 |          |(신약개발)  파이썬 자연어 처리의 이론과 실제 :  9장. NLU과 NLG 문제에 대한 딥러닝
+| 1	 |2019.10.11|(신약개발)  파이썬 자연어 처리의 이론과 실제 :  9장. NLU과 NLG 문제에 대한 딥러닝
 |  	 |          |(실무) [시계열분석 : Chapter 5  시계열 회귀 모델](https://github.com/biospin/realdeepbio/blob/master/part04/week01_191011/Forecasting_chapter5.ipynb)
 |  	 |          |(텐서플로우) Hands-on Machine Learning : 13. Loading and Preprocessing Data with TensorFlow
 | 2	 |2019.10.18|((신약개발)   Deep Learning for the Life Sciences: 11. A Virtual Screening Workflow Example
