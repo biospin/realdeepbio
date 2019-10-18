@@ -137,7 +137,7 @@ https://drive.google.com/drive/u/1/folders/1oeePJyJabqRylL3TY04E9BRq1g-OypjN
 |  	 |          |(실무) [시계열분석 : Chapter 5  시계열 회귀 모델](https://github.com/biospin/realdeepbio/blob/master/part04/week01_191011/Forecasting_chapter5.ipynb)
 |  	 |          |(텐서플로우) Hands-on Machine Learning : 13. Loading and Preprocessing Data with TensorFlow
 | 2	 |2019.10.18|((신약개발)   Deep Learning for the Life Sciences: 11. A Virtual Screening Workflow Example
-|  	 |          |(실무) 시계열분석 : Chapter 9 동적 회귀 모델 ~ Chapter 10 계층적 시계열 또는 그룹화된 시계열
+|  	 |          |(실무) [시계열분석 : Chapter 6. 시계열 분해](https://github.com/biospin/realdeepbio/blob/master/part04/week02_191018/%EF%80%ADForecasting_chapter6.ipynb)
 |  	 |          |(텐서플로우) Hands-on Machine Learning : 14. Deep Computer Vision Using Convolutional Neural Networks
 | 3	 |2019.10.25|(신약개발)   Deep Learning for the Life Sciences: 12. Prospects and Perspectives
 |  	 |          |(실무) 시계열분석 :Chapter 11 고급 예측 기법 ~ Chapter 12 몇 가지 실제 예측 문제
